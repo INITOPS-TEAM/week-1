@@ -1,8 +1,11 @@
+## Related Jira task
+- Link to the Jira issue
+
 ## What was done
 - Briefly describe what was implemented or changed
 
-## Why was it done
+## Why it is needed
 - Explain the purpose of this change
 
-## Related Jira task
-- Link to the Jira issue
+## Validation
+- Describe how this PR was tested
