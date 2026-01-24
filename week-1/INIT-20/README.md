@@ -1,0 +1,17 @@
+# INIT-20 - Web application preparation
+
+Minimal Flask web application that displays an image and a short description.
+
+## How to run locally
+```bash
+cd week-1/INIT-20/webapp
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python app.py
+
+Open: http://localhost:5000
+
+Acceptance Criteria:
+Web application opens in a browser
+An image and a short description are displayed
