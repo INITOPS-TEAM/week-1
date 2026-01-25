@@ -8,10 +8,11 @@ cd veronika/app
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python app.py
+python3 app.py
+```
 
 Open: http://localhost:5000
 
-Acceptance Criteria:
+## Acceptance criteria
 Web application opens in a browser
 An image and a short description are displayed
