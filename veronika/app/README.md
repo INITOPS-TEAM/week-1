@@ -4,7 +4,7 @@ Minimal Flask web application that displays an image and a short description.
 
 ## How to run locally
 ```bash
-cd week-1/veronika/webapp
+cd veronika/app
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt

@@ -7,7 +7,7 @@ def index():
     return render_template(
         "index.html",
         title="INIT-20 Web App",
-        description="Simple web application displaying an image and a short description."
+        description="European bee-eater, Ukraine"
     )
 
 if __name__ == "__main__":
