@@ -14,7 +14,7 @@
 <body>
   <div class="wrap">
     <h1>{{ title }}</h1>
-    <img src="/static/bird.jpg" alt="Bird" />
+    <img src="{{ image_url or '/static/bird.jpg' }}" alt="Bird" />
     <p class="desc">{{ description }}</p>
   </div>
 </body>
