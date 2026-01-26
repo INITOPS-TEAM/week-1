@@ -14,5 +14,5 @@ python3 app.py
 Open: http://localhost:5000
 
 ## Acceptance criteria
-Web application opens in a browser
-An image and a short description are displayed
+- Web application opens in a browser
+- An image and a short description are displayed
