@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route("/")
-def hello(name="DevOps engineer Mykola"):
+def hello(name="This is photo of a bird"):
     return render_template('index.html', person=name)
 
 if __name__ == "__main__":
