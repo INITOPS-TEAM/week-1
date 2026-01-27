@@ -7,34 +7,33 @@ The project demonstrates basic Flask functionality: routing, templates, and stat
 
 ## Requirements
 To run this project, you need to have the following installed:
-- Python 3.x
-- pip
-- Git
+- blinker==1.9.0
+- click==8.3.1
+- Flask==3.1.2
+- itsdangerous==2.2.0
+- Jinja2==3.1.6
+- MarkupSafe==3.0.3
+- Werkzeug==3.1.5
 
 ## Local deployment
-
-1. Clone the repository:bash
-git clone <repository-url>
-
-2. Create and activate a virtual environment
-
-    python3 -m venv venv
-    source venv/bin/activate
-
-3. Install the required dependencies
-    pip install -r requirements.txt
-
-4. Run the application
-
-    python3 app.py
+### 1. Navigate to the project directory
+    First, move to the app directory where the virtual environment will be created:
+    - cd app
+### 2. Create a Python virtual environment
+    - python3 -m venv venv
+### 3. Activate the virtual environment
+    - source venv/bin/activate  
+### 4. Install dependencies
+    - pip freeze > requirements.txt
+### 5. Run the Flask application 
+    - cd flask1
+    - python3 app.py
 
 
 ## Project Structure
 The project contains a Flask application file, HTML templates, static files for images, and a requirements file.
 
 ## Validation and Testing
-Check the terminal output to see the local server address.
 
-Open a web browser and navigate to that URL.
-
-Verify that the application loads successfully and displays the image and description.
+Run the Flask application and open the provided local URL in your browser.
+Make sure the application loads correctly and no errors appear in the terminal.
