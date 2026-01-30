@@ -5,7 +5,6 @@ After=network.target
 [Service]
 User=app1
 WorkingDirectory=/home/app1/app
-Environment=PATH=/home/app1/app/venv/bin
 ExecStart=/home/app1/app/venv/bin/python app.py
 Restart=always
 RestartSec=3

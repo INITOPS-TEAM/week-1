@@ -3,10 +3,7 @@ set -e
 
 APP_DIR="$HOME/app"
 VENV_DIR="$APP_DIR/venv"
-REQUIREMENTS_FILE="requirements.txt"
 SERVICE_NAME="flask-app"
-SERVICE_SRC="$HOME/scripts/flask-app.service"
-SERVICE_DST="/etc/systemd/system/${SERVICE_NAME}.service"
 
 echo "Starting application server setup..."
 
@@ -23,13 +20,13 @@ else
 fi
 
 source "$VENV_DIR/bin/activate"
-pip install -r "$REQUIREMENTS_FILE"
+pip install -r requirements.txt
 
 echo "Python environment ready."
 
 echo "Installing systemd service..."
 
-sudo cp "$SERVICE_SRC" "$SERVICE_DST"
+sudo cp "$HOME/scripts/flask-app.service" /etc/systemd/system/flask-app.service
 
 sudo systemctl daemon-reload
 sudo systemctl enable "$SERVICE_NAME"
