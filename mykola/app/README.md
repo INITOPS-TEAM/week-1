@@ -2,8 +2,7 @@
 
 
 ## Description
-Simple Flask web application that renders an HTML page with a heading and an image.
-The project demonstrates basic Flask functionality: routing, templates, and static files.
+Simple Flask web application that renders an HTML page with a heading and an image of a bird.
 
 ## Requirements
 To run this project, you need to have the following installed:
@@ -16,24 +15,23 @@ To run this project, you need to have the following installed:
 - Werkzeug==3.1.5
 
 ## Local deployment
-### 1. Navigate to the project directory
+1. Navigate to the project directory
     First, move to the app directory where the virtual environment will be created:
-    - cd app
-### 2. Create a Python virtual environment
-    - python3 -m venv venv
-### 3. Activate the virtual environment
-    - source venv/bin/activate  
-### 4. Install dependencies
-    - pip freeze > requirements.txt
-### 5. Run the Flask application 
-    - cd flask1
-    - python3 app.py
+     cd app
+2. Create a Python virtual environment
+     python3 -m venv venv
+3. Activate the virtual environment
+     source venv/bin/activate  
+4. Install dependencies
+     pip install -r requirements.txt
+5. Run the Flask application 
+     cd flask1
+     python3 app.py
 
 
 ## Project Structure
-The project contains a Flask application file, HTML templates, static files for images, and a requirements file.
+The project contains a Flask application file (mykola/app/flask1/app.py), HTML template, static file for image, and a requirements file.
+
 
 ## Validation and Testing
-
 Run the Flask application and open the provided local URL in your browser.
-Make sure the application loads correctly and no errors appear in the terminal.
