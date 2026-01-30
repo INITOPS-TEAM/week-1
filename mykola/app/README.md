@@ -16,15 +16,15 @@ To run this project, you need to have the following installed:
 
 ## Local deployment
 1. Navigate to the project directory
-    First, move to the app directory where the virtual environment will be created:
+    First, move to the app directory where the virtual environment will be created:\
      `cd app`
-2. Create a Python virtual environment
+2. Create a Python virtual environment\
      `python3 -m venv venv`
-3. Activate the virtual environment
+3. Activate the virtual environment\
      `source venv/bin/activate`  
-4. Install dependencies
+4. Install dependencies\
      `pip install -r requirements.txt`
-5. Run the Flask application 
+5. Run the Flask application \
      `cd flask1`
      `python3 app.py`
 
