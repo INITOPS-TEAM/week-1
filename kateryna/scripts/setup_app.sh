@@ -26,7 +26,7 @@ echo "Python environment ready."
 
 echo "Installing systemd service..."
 
-sudo cp "$HOME/scripts/flask-app.service" /etc/systemd/system/flask-app.service
+sudo cp "$HOME/scripts/$SERVICE_NAME.service" /etc/systemd/system/$SERVICE_NAME.service
 
 sudo systemctl daemon-reload
 sudo systemctl enable "$SERVICE_NAME"
