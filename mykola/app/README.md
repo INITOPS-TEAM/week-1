@@ -5,14 +5,7 @@
 Simple Flask web application that renders an HTML page with a heading and an image of a bird.
 
 ## Requirements
-To run this project, you need to have the following installed:
-- blinker==1.9.0
-- click==8.3.1
-- Flask==3.1.2
-- itsdangerous==2.2.0
-- Jinja2==3.1.6
-- MarkupSafe==3.0.3
-- Werkzeug==3.1.5
+All project dependencies are declared in the mykola/app/requirements.txt.
 
 ## Local deployment
 1. Navigate to the project directory
