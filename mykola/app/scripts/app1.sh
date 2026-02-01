@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 APP_DIR="$1" 
 LOGS="$2"
 
