@@ -18,7 +18,7 @@ All project dependencies are declared in the mykola/app/requirements.txt.
 4. Install dependencies\
      `pip install -r requirements.txt`
 5. Run the Flask application \
-     `cd flask1`
+     `cd flask1`\
      `python3 app.py`
 
 
