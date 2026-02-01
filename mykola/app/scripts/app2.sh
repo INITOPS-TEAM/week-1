@@ -1,4 +1,5 @@
 #!/bin/bash
+
 APP_DIR="$1"
 VENV_DIR="$2"
 LOGS="$3"
