@@ -1,14 +1,12 @@
 #!/bin/bash
-
-APP_DIR="/home/mstr/flask2/first/flask2"
-VENV_DIR="/home/mstr/flask2/first/venv"
-LOGS="/home/mstr/flask_logs"
-
-source "$VENV_DIR/bin/activate"
+APP_DIR="$1"
+VENV_DIR="$2"
+LOGS="$3"
 
 if cd "$APP_DIR"; then
-    python3 app.py
+  source "$VENV_DIR/bin/activate"
+  python3 app.py 2>&1 | tee -a "$LOGS"
 else
-    echo "Project not found!" >> $LOGS
-    exit 1
+  echo "Project directory not found!" | tee -a "$LOGS"
+  exit 1
 fi
