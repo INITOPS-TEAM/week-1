@@ -1,7 +1,7 @@
 #!/bin/bash
 
-APP_DIR="/home/mstr/flask-proj/first/flask1"
-LOGS="/home/mstr/flask_log"
+APP_DIR="$1" 
+LOGS="$2"
 
 if cd "$APP_DIR"; then
     source venv/bin/activate
