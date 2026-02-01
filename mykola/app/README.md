@@ -27,4 +27,4 @@ The project contains a Flask application file (mykola/app/flask1/app.py), HTML t
 
 
 ## Validation and Testing
-Run the Flask application and open the provided local URL in your browser.
+Open http://localhost:5000/ in your browser.
